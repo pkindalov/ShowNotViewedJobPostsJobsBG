@@ -9,6 +9,22 @@ re-scan the whole list every time you check for new openings.
 > below), not a generic infinite-scroll pattern. It won't work on other job
 > sites without changes — see the note at the end of "The interesting parts".
 
+## Screenshots
+
+**Checking for new jobs** — a non-blocking toast and progress badge, instead
+of a page-freezing `alert()`:
+
+![Checking for new jobs](screenshots/searching.png)
+
+**A new job found** — highlighted directly in the list, with the badge
+showing how many:
+
+![New job highlighted](screenshots/found_results.png)
+
+**Nothing new since last check:**
+
+![No new jobs found](screenshots/not_found.png)
+
 ## Why I built this
 
 I check jobs.bg regularly, and manually comparing "what's new since last time
